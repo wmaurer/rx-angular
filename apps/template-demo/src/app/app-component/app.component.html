@@ -10,19 +10,24 @@
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
       <h3 matSubheader>Tutorials</h3>
-      <a mat-list-item [routerLink]="['unpatch']">unpatch</a>
-      <a mat-list-item [routerLink]="['scheduling']">Scheduling</a>
-      <a mat-list-item [routerLink]="['coalescing/experiments-profiling']"
+      <a mat-list-item [routerLink]="['unpatch']" [unpatch]>unpatch</a>
+      <a mat-list-item [routerLink]="['scheduling']" [unpatch]>Scheduling</a>
+      <a
+        mat-list-item
+        [routerLink]="['coalescing/experiments-profiling']"
+        [unpatch]
         >Coalescing Profiling</a
       >
-      <a mat-list-item [routerLink]="['coalescing/real-life-1']"
+      <a mat-list-item [routerLink]="['coalescing/real-life-1']" [unpatch]
         >Coalescing Imperative</a
       >
-      <a mat-list-item [routerLink]="['scheduling']">Scheduling</a>
-      <a mat-list-item [routerLink]="['prioritize-in-viewport']"
+      <a mat-list-item [routerLink]="['scheduling']" [unpatch]>Scheduling</a>
+      <a mat-list-item [routerLink]="['prioritize-in-viewport']" [unpatch]
         >Viewport Prio</a
       >
-      <a mat-list-item [routerLink]="['tree-prio']">ComponentTree Prio</a>
+      <a mat-list-item [routerLink]="['tree-prio']" [unpatch]
+        >ComponentTree Prio</a
+      >
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
