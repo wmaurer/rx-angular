@@ -79,7 +79,7 @@
     "zone.js": "^0.11.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "0.1102.0",
+    "@angular-devkit/build-angular": "0.1102.3",
     "@angular-devkit/build-ng-packagr": "0.1002.0",
     "@angular/cli": "11.2.0",
     "@angular/compiler-cli": "~11.2.0",
@@ -94,7 +94,6 @@
     "@nrwl/workspace": "11.2.12",
     "@types/jest": "26.0.20",
     "@types/klaw-sync": "^6.0.0",
-    "@types/ncp": "^2.0.4",
     "@types/node": "~12.12.38",
     "@types/node-fetch": "^2.5.8",
     "chrome-remote-interface": "^0.29.0",
@@ -110,8 +109,7 @@
     "jest-preset-angular": "8.3.2",
     "klaw-sync": "^6.0.0",
     "lint-staged": "^10.4.0",
-    "ncp": "^2.0.0",
-    "ng-packagr": "11.2.1",
+    "ng-packagr": "11.2.4",
     "node-fetch": "^2.6.1",
     "prettier": "2.2.1",
     "ts-jest": "26.4.0",
