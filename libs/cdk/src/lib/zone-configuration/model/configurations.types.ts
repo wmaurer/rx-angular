@@ -1,5 +1,8 @@
 // prefix: __Zone_disable_
-export const zoneGlobalDisableConfigurationsKeys: readonly string[] = [
+export const zoneGlobalDisableConfigurationsKeys = [
+  /**
+   * test
+   */
   'EventEmitter',
   'fs',
   'node_timers',
@@ -26,27 +29,27 @@ export const zoneGlobalDisableConfigurationsKeys: readonly string[] = [
 export type ZoneGlobalDisableConfigurationsKey = typeof zoneGlobalDisableConfigurationsKeys[number];
 
 // prefix: __zone_symbol__
-export const zoneGlobalEventsConfigurationsKeys: readonly string[] = [
+export const zoneGlobalEventsConfigurationsKeys = [
   'UNPATCHED_EVENTS',
   'PASSIVE_EVENTS',
 ] as const;
 export type ZoneGlobalEventsConfigurationsKey = typeof zoneGlobalEventsConfigurationsKeys[number];
 
 // prefix: __zone_symbol__
-export const zoneGlobalSettingsConfigurationsKeys: readonly string[] = [
+export const zoneGlobalSettingsConfigurationsKeys = [
   'DISABLE_WRAPPING_UNCAUGHT_PROMISE_REJECTION',
 ] as const;
 export type ZoneGlobalSettingsConfigurationsKey = typeof zoneGlobalSettingsConfigurationsKeys[number];
 
 // prefix: __zone_symbol__
-export const zoneRuntimeConfigurationsKeys: readonly string[] = [
+export const zoneRuntimeConfigurationsKeys = [
   'ignoreConsoleErrorUncaughtError',
 ] as const;
 export type ZoneRuntimeConfigurationsKey = typeof zoneRuntimeConfigurationsKeys[number];
 
 // prefix: __Zone_disable_
 
-export const zoneTestDisableConfigurationsKeys: readonly string[] = [
+export const zoneTestDisableConfigurationsKeys = [
   'jasmine',
   'mocha',
   'jest',
@@ -54,7 +57,7 @@ export const zoneTestDisableConfigurationsKeys: readonly string[] = [
 export type ZoneTestDisableConfigurationsKey = typeof zoneTestDisableConfigurationsKeys[number];
 
 // prefix: __zone_symbol__
-export const zoneTestSettingsConfigurationsKeys: readonly string[] = [
+export const zoneTestSettingsConfigurationsKeys = [
   'fakeAsyncDisablePatchingClock',
   'fakeAsyncAutoFakeAsyncWhenClockPatched',
   'supportWaitUnResolvedChainedPromise',
