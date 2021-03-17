@@ -1,7 +1,7 @@
 import { InjectionToken } from '@angular/core';
 import { RxAngularConfig, RxDefaultStrategyNames } from './model';
 import { RX_CONCURRENT_STRATEGIES } from './render-strategies/concurrent-strategies';
-import { RX_NATIVE_STRATEGIES } from './render-strategies/native-strategies';
+import { RX_DEFAULT_STRATEGIES } from './render-strategies/default-strategies';
 
 export const RX_ANGULAR_CONFIG = new InjectionToken<RxAngularConfig<string>>(
   'rx-angular-config'
@@ -12,8 +12,7 @@ export const RX_ANGULAR_DEFAULTS: Required<
 > = {
   primaryStrategy: 'normal',
   customStrategies: {
-    ...RX_NATIVE_STRATEGIES,
-    local: RX_CONCURRENT_STRATEGIES.immediate,
+    ...RX_DEFAULT_STRATEGIES,
     ...RX_CONCURRENT_STRATEGIES,
   },
   patchZone: true,
