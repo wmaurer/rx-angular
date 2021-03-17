@@ -54,7 +54,7 @@ const nativeCredentials: RxStrategyCredentials = {
 };
 
 export type RxNativeStrategies = RxCustomStrategyCredentials<RxNativeStrategyNames>;
-export const RX_NATIVE_STRATEGIES: RxNativeStrategies = {
+export const RX_DEFAULT_STRATEGIES: RxNativeStrategies = {
   global: globalCredentials,
   native: nativeCredentials,
   noop: noopCredentials,

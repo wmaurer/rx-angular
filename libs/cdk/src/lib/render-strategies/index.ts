@@ -4,4 +4,7 @@ export {
   RX_CONCURRENT_STRATEGIES,
   RxConcurrentStrategies,
 } from './concurrent-strategies';
-export { RX_NATIVE_STRATEGIES, RxNativeStrategies } from './native-strategies';
+export {
+  RX_DEFAULT_STRATEGIES,
+  RxNativeStrategies,
+} from './default-strategies';
