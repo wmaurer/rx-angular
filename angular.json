@@ -977,7 +977,7 @@
                 "command": "npx cpx libs/builder-webpack/builders/builders.json dist/libs/builder-webpack/builders"
               },
               {
-                "command": "npx cpx libs/builder-webpack/builders/**/schema.json dist/libs/builder-webpack/builders"
+                "command": "npx cpx libs/builder-webpack/**/schema.json dist/libs/builder-webpack"
               }
             ],
             "parallel": false

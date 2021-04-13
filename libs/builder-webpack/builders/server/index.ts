@@ -5,18 +5,26 @@ import {
 } from '@angular-devkit/build-angular';
 import { json } from '@angular-devkit/core';
 import { Observable } from 'rxjs';
-import { switchMap } from 'rxjs/operators';
-import { mergeOptions } from '../../custom-builder/utils';
+import { map, switchMap } from 'rxjs/operators';
+import { loadOptions } from '../../custom-builder/utils';
+import { CustomWebpackBuilderOptions, getTransforms } from '../../custom-builder';
+import { mergeRxaStylesIntoAngularStyles } from '../../styles-slots/merge-options';
 
-export type CustomWebpackServerSchema = ServerBuilderOptions;
+export type CustomWebpackServerSchema = ServerBuilderOptions &
+  CustomWebpackBuilderOptions;
 
 export function buildCustomWebpackServer(
   options: CustomWebpackServerSchema,
   context: any
 ): Observable<BuilderOutput> {
-  return mergeOptions(options, context).pipe(
+  return loadOptions(options, context).pipe(
+    map(mergeRxaStylesIntoAngularStyles),
     switchMap((customWebpackOptions) =>
-      executeServerBuilder(customWebpackOptions, context)
+      executeServerBuilder(
+        options,
+        context as any, // @TODO fix typing
+        getTransforms(customWebpackOptions, context)
+      )
     )
   );
 }

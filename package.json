@@ -32,7 +32,8 @@
     "template:publish": "nx publish template",
     "tracebench": "tracerbench compare --controlURL http://localhost:4200/rx-angular/demos --experimentURL http://localhost:4242/rx-angular/demos --markers startRouting,endRouting --headless --report",
     "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points && node ./decorate-angular-cli.js",
-    "workspace-generator": "nx workspace-generator"
+    "workspace-generator": "nx workspace-generator",
+    "build-and-link-builder": "nx build-builders builder-webpack && cd ./dist/libs/builder-webpack && npm link && cd ../../../"
   },
   "husky": {
     "hooks": {
