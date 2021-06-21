@@ -21,9 +21,9 @@ import {
   RxTemplateManager,
   RxStrategyProvider
 } from '@rx-angular/cdk';
-import { coerceAllFactory } from '@rx-angular/cdk/coercing';
+import { coerceAllFactory } from '@rx-angular/cdk/coercion';
 import { createTemplateNotifier, RxNotificationKind } from '@rx-angular/cdk/notifications';
-import {coerceObservable} from '@rx-angular/cdk/coercing';
+import {coerceObservable} from '@rx-angular/cdk/coercion';
 @Directive({
   selector: '[rxIf]',
 })

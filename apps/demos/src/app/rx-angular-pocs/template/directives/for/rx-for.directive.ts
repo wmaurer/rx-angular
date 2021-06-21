@@ -18,7 +18,7 @@ import {
   RxListManager,
   RxListViewComputedContext, RxListViewContext, RxDefaultListViewContext, RxStrategyProvider
 } from '@rx-angular/cdk';
-import {coerceDistinctWith} from '@rx-angular/cdk/coercing';
+import {coerceDistinctWith} from '@rx-angular/cdk/coercion';
 
 import { ReplaySubject, Subject, Observable, Subscription } from 'rxjs';
 

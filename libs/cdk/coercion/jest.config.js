@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'cdk-coercing',
+  displayName: 'cdk-coercion',
   preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -14,7 +14,7 @@ module.exports = {
       tsconfig: '<rootDir>/tsconfig.spec.json',
     },
   },
-  coverageDirectory: '../../../coverage/libs/cdk/coercing',
+  coverageDirectory: '../../../coverage/libs/cdk/coercion',
   snapshotSerializers: [
     'jest-preset-angular/build/serializers/no-ng-attributes',
     'jest-preset-angular/build/serializers/ng-snapshot',

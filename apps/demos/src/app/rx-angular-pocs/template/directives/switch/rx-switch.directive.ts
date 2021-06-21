@@ -3,7 +3,7 @@ import { Directive, Input } from '@angular/core';
 import { BehaviorSubject, Observable, ReplaySubject } from 'rxjs';
 import { distinctUntilChanged, mergeAll, switchAll } from 'rxjs/operators';
 import { RxStrategyProvider } from '@rx-angular/cdk';
-import { coerceAllFactory } from '@rx-angular/cdk/coercing';
+import { coerceAllFactory } from '@rx-angular/cdk/coercion';
 
 @Directive({
   // tslint:disable-next-line:directive-selector

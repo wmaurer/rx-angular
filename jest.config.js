@@ -17,7 +17,7 @@ module.exports = {
     '<rootDir>/libs/cdk/zone-configurations',
     '<rootDir>/libs/cdk/internals/scheduler',
     '<rootDir>/libs/cdk/coalescing',
-    '<rootDir>/libs/cdk/coercing',
+    '<rootDir>/libs/cdk/coercion',
     '<rootDir>/libs/cdk/notifications',
   ],
 };

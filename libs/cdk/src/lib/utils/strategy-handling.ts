@@ -2,7 +2,7 @@ import { RxStrategyCredentials, RxCustomStrategyCredentials } from '../model';
 import { Observable, ReplaySubject } from 'rxjs';
 import { map, share, startWith, switchAll } from 'rxjs/operators';
 
-import { coerceAllFactory } from '@rx-angular/cdk/coercing';
+import { coerceAllFactory } from '@rx-angular/cdk/coercion';
 
 /**
  * @internal

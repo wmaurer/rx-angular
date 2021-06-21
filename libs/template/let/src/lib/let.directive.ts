@@ -22,7 +22,7 @@ import {
   RxViewContext,
   RxStrategyNames,
 } from '@rx-angular/cdk';
-import { coerceAllFactory } from '@rx-angular/cdk/coercing';
+import { coerceAllFactory } from '@rx-angular/cdk/coercion';
 import {
   createTemplateNotifier,
   RxNotification,

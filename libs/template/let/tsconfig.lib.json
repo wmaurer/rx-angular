@@ -8,7 +8,7 @@
     "lib": ["dom", "es2018"],
     "paths": {
       "@rx-angular/cdk": ["dist/libs/cdk"],
-      "@rx-angular/cdk/coercing": ["dist/libs/cdk/coercing"],
+      "@rx-angular/cdk/coercion": ["dist/libs/cdk/coercion"],
       "@rx-angular/cdk/notifications": ["dist/libs/cdk/notifications"]
     }
   },

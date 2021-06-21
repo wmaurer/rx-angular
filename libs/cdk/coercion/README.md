@@ -1,4 +1,4 @@
-# @rx-angular/cdk/coercing
+# @rx-angular/cdk/coercion
 
 [![npm](https://img.shields.io/npm/v/%40rx-angular%2Fcdk.svg)](https://www.npmjs.com/package/%40rx-angular%2Fcdk)
 ![rx-angular CI](https://github.com/rx-angular/rx-angular/workflows/rx-angular%20CI/badge.svg?branch=master)
@@ -6,13 +6,13 @@
 
 ## Convenience helper to easily coerce reactive values
 
-`@rx-angular/cdk/coercing` is a small set of helpers designed to improve the DX when managing transformations between imperative and reactive values.
+`@rx-angular/cdk/coercion` is a small set of helpers designed to improve the DX when managing transformations between imperative and reactive values.
 It provides a strictly typed API to conveniently coerce imperative setters into reactive streams.
 The documentation also includes a set of marble diagrams for better visual understanding.
 
 ## Key features
 
-- ✅ Coercing helper for Observables
+- ✅ coercion helper for Observables
 - ✅ RxJS operators
 - ✅ RxJS factories
 - ✅ Fully tested
@@ -25,11 +25,11 @@ The documentation also includes a set of marble diagrams for better visual under
 ## Install
 
 ```bash
-npm install --save @rx-angular/cdk/coercing
+npm install --save @rx-angular/cdk/coercion
 # or
-yarn add @rx-angular/cdk/coercing
+yarn add @rx-angular/cdk/coercion
 ```
 
 ## Documentation
 
-- [Coercion](https://github.com/rx-angular/rx-angular/tree/master/libs/cdk/coercing/docs/Readme.md)
+- [Coercion](https://github.com/rx-angular/rx-angular/tree/master/libs/cdk/coercion/docs/Readme.md)

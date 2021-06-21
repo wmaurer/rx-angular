@@ -46,19 +46,19 @@
       "tags": ["type:lib", "type:cdk"],
       "implicitDependencies": []
     },
-    "cdk-coercing": {
+    "cdk-coercion": {
       "tags": ["type:lib", "type:cdk"],
       "implicitDependencies": []
     },
     "cdk-notifications": {
       "tags": ["type:lib", "type:cdk"],
-      "implicitDependencies": ["cdk-coercing"]
+      "implicitDependencies": ["cdk-coercion"]
     },
     "cdk": {
       "tags": ["type:lib", "type:cdk"],
       "implicitDependencies": [
         "cdk-internals-scheduler",
-        "cdk-coercing",
+        "cdk-coercion",
         "cdk-zone-less"
       ]
     },

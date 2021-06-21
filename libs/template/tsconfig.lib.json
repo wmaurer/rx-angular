@@ -12,7 +12,7 @@
       "@rx-angular/cdk/zone-configurations": [
         "dist/libs/cdk/zone-configurations"
       ],
-      "@rx-angular/cdk/coercing": ["dist/libs/cdk/coercing"],
+      "@rx-angular/cdk/coercion": ["dist/libs/cdk/coercion"],
       "@rx-angular/cdk/notifications": ["dist/libs/cdk/notifications"]
     }
   },

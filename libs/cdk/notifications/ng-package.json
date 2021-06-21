@@ -6,7 +6,7 @@
     "flatModuleFile": "cdk-notifications",
     "umdId": "rx-angular.cdk-notifications",
     "umdModuleIds": {
-      "@rx-angular/cdk/coercing": "rx-angular.cdk-coercing"
+      "@rx-angular/cdk/coercion": "rx-angular.cdk-coercion"
     }
   }
 }

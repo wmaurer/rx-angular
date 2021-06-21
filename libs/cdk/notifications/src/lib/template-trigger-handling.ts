@@ -1,7 +1,7 @@
 import { Observable, Subject } from 'rxjs';
 import { mergeAll, share } from 'rxjs/operators';
 
-import { coerceAllFactory } from '@rx-angular/cdk/coercing';
+import { coerceAllFactory } from '@rx-angular/cdk/coercion';
 
 import { RxNotification } from './model';
 
